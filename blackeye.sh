@@ -1,12 +1,12 @@
 #!/bin/bash
 
 open_page() {
-    url="https://github.com/EricksonAtHome/bes"
+    url="https://github.com/Domainbot/Blackeye/bes"
      open "$url"
 }
 
 open_page_uts() {
-    url="https://github.com/EricksonAtHome/UTS7"
+    url="https://github.com/Domainbot/Blackeye/UTS7"
      open "$url"
 }
 
@@ -17,7 +17,7 @@ start_server() {
     echo "Start de server voor: $server"
 }
 
-# Upgraded by: @EricksonAtHome (https://github.com/EricksonAtHome/blackeye)
+# Upgraded by: @Domainbot/(https://github.com/Domainbot/Blackeye)
 #Enhanced ngrok tunnelling
 trap 'printf "\n";stop;exit 1' 2
 menu() {
